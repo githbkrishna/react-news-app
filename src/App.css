@@ -1,0 +1,26 @@
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2vw;
+  column-gap: 1vw;
+  /* column-gap: 2px; */
+}
+
+.card-text{
+  font-size: 15px;
+}
+
+body{
+  background-color: rgb(248, 241, 232);
+}
+
+nav{
+  cursor: pointer;
+}
+
+.navbar-nav{
+  text-transform: capitalize;
+}
